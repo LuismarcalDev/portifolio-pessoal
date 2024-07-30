@@ -1,0 +1,46 @@
+.sobre-mim {
+  width: 100%;
+  height: 100dvh;
+}
+.sobre-mim-geral {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  top: 100px;
+}
+.title-sobre-mim h2 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 28px;
+}
+.title-sobre-mim hr {
+  width: 200px;
+  border: 2px #0044ff solid;
+  border-radius: 5px;
+}
+.title-sobre-mim {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sobre-mim-geral p {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 23px;
+  color: rgba(255, 255, 255, 0.815);
+}
+
+@media screen and (max-width: 1170px) {
+  .sobre-mim-geral p {  
+    padding: 30px;
+    text-align: justify;
+    hyphens: auto;
+  }
+  .brs{
+  display: none;
+  }
+  
+}

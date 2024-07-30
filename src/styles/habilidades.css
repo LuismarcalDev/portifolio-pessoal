@@ -1,0 +1,81 @@
+.habilidades {
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title-habilidades {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: -80px;
+}
+.title-habilidades h2 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  font-size: 28px;
+}
+.title-habilidades hr {
+  width: 200px;
+  border: 2px #0044ff solid;
+  border-radius: 5px;
+}
+.circle-img img {
+  width: 50px;
+  position: relative;
+}
+.circle-img {
+  margin-left: 70px;
+  background-color: #e6f4ff;
+  width: 70px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 5px 15px 20px rgba(0, 0, 0, 0.26);
+}
+
+.circle-img h2 {
+  background-color: #1844bb;
+  position: relative;
+  top: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  text-shadow: 2px 5px 15px rgba(0, 0, 0, 0.459);
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  width: 70px;
+  text-align: center;
+}
+.habilidades-completo {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: -37px;
+}
+
+@media screen and (max-width: 1170px) {
+  .title-habilidades {
+    position: relative;
+    left: 0;
+  }
+  .habilidades{
+  position: relative;
+  top: 50px;
+  }
+  .habilidades-completo {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    gap: 30px;
+    margin-left: -30px;
+  }
+}
